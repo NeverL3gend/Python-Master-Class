@@ -125,3 +125,5 @@ print (seperators)
 
 values ="".join(char if char not in seperators else " " for char in number).split()
 print ([int(val) for val in values])
+
+
