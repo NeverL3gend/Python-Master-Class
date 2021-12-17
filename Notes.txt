@@ -1,0 +1,19 @@
+Python Data Types
+- numeric
+- iterator
+- sequence (which are also iterators)
+- mapping
+- file
+- class
+- exception
+
+Numeric Data Types
+Python3 has three numeric data types:
+- int
+- float
+- complex
+
+Integer & Float Data types
+The Python integer data type is called int.
+- Integers are just whole numbers -> numbers having no fractional part.
+- Float is another name for real numbers -> numbers having a fractional part after the decimal point.
