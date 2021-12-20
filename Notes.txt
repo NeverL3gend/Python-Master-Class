@@ -17,3 +17,22 @@ Integer & Float Data types
 The Python integer data type is called int.
 - Integers are just whole numbers -> numbers having no fractional part.
 - Float is another name for real numbers -> numbers having a fractional part after the decimal point.
+
+
+Python Sequence Types
+Python 3 has 5 sequence types built in:
+    - The string type
+    - List
+    - Tuple
+    - Range
+    - Bytes and Bytearray
+
+What is a Sequence?
+
+A sequence is deined as an ordered set of items
+For example, the string "Hello World" contains 11 items, and each item is a character
+
+A List is alos a sequence  type. For example, here's a Python list of things you might need, when buying a new computer:
+parts = ["computer", "monitor", "keyboard", "mouse", "mouse mat"]
+parts[1] # will give us monitor
+parts[1][0] # will give us m

@@ -30,3 +30,11 @@ print (slice2)
 # slice the string to produce the last 8 charactes in reverse order
 slice3 = letters [25:17:-1] #OR use [:-9:-1]
 print(slice3)
+
+# Last four letters
+print (letters[-4:])
+#get the last item from letters
+print (letters[-1:])
+#to get the first item from letters
+print (letters[:1])
+print (letters[0]) 
