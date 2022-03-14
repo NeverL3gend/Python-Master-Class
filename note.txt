@@ -1,0 +1,22 @@
+If Blocks:
+- A block can be quite complex, including furhter "if" and "else" blocks (and much more) contained within it.
+- When testsing for equality, we can't use a single = symbol. = is used for assigning values to cariables, 
+so when testing for equality we have to use ==
+- An if statement can inclide many elid parts, but there can be only one else. elif is short for "else if"
+- The "else", if there is one, must come eafter all the "elif" blocks
+- Duplicating code is generally a bad idea -  there's almost always a better way.
+
+Conditional Operators:
+- When testing conditions, we can use any of the value comparison operators.
+- There are other types of comparisons we can perform, but we'll focus on these 6 for now:
+
+++++++++++++++++++++++++++++++++++++++++++
+|Condition                    | Symbols  |
+++++++++++++++++++++++++++++++++++++++++++
+|    Less than               |  >        |
+|    Less than or equal to   | <=        |
+|    Greater Than            | >         |
+|    Greater than or equal to| >=        |
+|    Equal to                | ==        |
+|    Not equal to            | !=        |
+++++++++++++++++++++++++++++++++++++++++++
