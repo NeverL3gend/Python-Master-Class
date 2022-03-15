@@ -20,3 +20,55 @@ Conditional Operators:
 |    Equal to                | ==        |
 |    Not equal to            | !=        |
 ++++++++++++++++++++++++++++++++++++++++++
+
+- Using "and"
+
+Let's say you were ask this question:
+
+Would you like an uncomfortable seat "and" an ice cream?
+
+if you answer yes to that question, you may enjoy the ice cream, but you wont be very comfortable.
+
+you've agreed to "both" parts of the condition 
+
+- Using "or"
+
+On the other hand, the question may have been phrased as:
+
+Would you like an uncomfortable sear "or" an ice cream?
+
+That allows you to choose either one of the options.
+
+This analogy falls down slightly, because in English there's an implication that you can only have one or the other.
+
+
+"and" Truth Table
+++++++++++++++++++++++++++++++++++
++    N/A     |   True    | False +
++    True    |   True    | False +
++    False   |   False   | False +
+++++++++++++++++++++++++++++++++++
+
+To find out the result of using "and" with 2 conditions, read the value at the intersection of 
+the 2 values that are being anded together
+
+
+"or" Truth Table
+++++++++++++++++++++++++++++++++++
++    N/A     |   True    | False +
++    True    |   True    | True  +
++    False   |   True    | False +
+++++++++++++++++++++++++++++++++++
+
+The "or" Truth table works in the same way, but the results are different of course.
+
+To find the result of using "or" with 2 conditions, read the value at the intersection of the 2 
+values that are being ored together.
+
+
+- Simplify Chained Comparisons
+
+When comparing conditions using "and", Python will stop checking as soon as it finds a condition 
+that is "False".
+
+When comparing conditions using "or", it will stop as soon as it finds one that is "True"
