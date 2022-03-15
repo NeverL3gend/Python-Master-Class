@@ -21,24 +21,17 @@ Conditional Operators:
 |    Not equal to            | !=        |
 ++++++++++++++++++++++++++++++++++++++++++
 
-- Using "and"
-
-Let's say you were ask this question:
-
-Would you like an uncomfortable seat "and" an ice cream?
-
-if you answer yes to that question, you may enjoy the ice cream, but you wont be very comfortable.
-
+Using "and":
+- Let's say you were ask this question:
+    Would you like an uncomfortable seat "and" an ice cream?
+-> If you answer yes to that question, you may enjoy the ice cream, but you wont be very comfortable.
 you've agreed to "both" parts of the condition 
 
-- Using "or"
+Using "or":
 
-On the other hand, the question may have been phrased as:
-
-Would you like an uncomfortable sear "or" an ice cream?
-
-That allows you to choose either one of the options.
-
+- On the other hand, the question may have been phrased as:
+    Would you like an uncomfortable sear "or" an ice cream?
+-> That allows you to choose either one of the options.
 This analogy falls down slightly, because in English there's an implication that you can only have one or the other.
 
 
@@ -49,7 +42,7 @@ This analogy falls down slightly, because in English there's an implication that
 +    False   |   False   | False +
 ++++++++++++++++++++++++++++++++++
 
-To find out the result of using "and" with 2 conditions, read the value at the intersection of 
+- To find out the result of using "and" with 2 conditions, read the value at the intersection of 
 the 2 values that are being anded together
 
 
@@ -60,15 +53,49 @@ the 2 values that are being anded together
 +    False   |   True    | False +
 ++++++++++++++++++++++++++++++++++
 
-The "or" Truth table works in the same way, but the results are different of course.
-
-To find the result of using "or" with 2 conditions, read the value at the intersection of the 2 
+- The "or" Truth table works in the same way, but the results are different of course.
+- To find the result of using "or" with 2 conditions, read the value at the intersection of the 2 
 values that are being ored together.
 
 
-- Simplify Chained Comparisons
+Simplify Chained Comparisons: 
 
-When comparing conditions using "and", Python will stop checking as soon as it finds a condition 
+- When comparing conditions using "and", Python will stop checking as soon as it finds a condition 
 that is "False".
 
-When comparing conditions using "or", it will stop as soon as it finds one that is "True"
+- When comparing conditions using "or", it will stop as soon as it finds one that is "True"
+
+
+Boolean Values:
+- A Boolean value is a value that can either be "true" or "false"
+- Those are the only 2 values that a Boolean can have.
+
+True and False:
+
+Python defines 2 constants:
+ > True
+ > False
+- Note that they're written with a captial letter. All names, in Python, are case sensitive.
+- True has a capital T, and False has a capital F.
+
+Boolean Expressions:
+- A Boolean expression is an expression that evaluates to either "True" or "False"
+> We've seen a few Boolean expressions - things like
+    age >= 16
+for example.
+- Boolean expressions aren't restricted to just testing numbers. We could also test a string value:
+    name == "Tim"
+is a Boolean expression that will evaluate to "True" if the value of name is the string Tim. It will evaluate to "False" if name has any other value.
+- Boolean expressions can be very complex.
+ > For example, you might have a condition such as:
+
+if day == "Saturday" and temperature . 27 and not raining:
+    print ("go swimming")
+
+- In that example (^) raining is a Boolean variable. It has the value "True" or "False". 
+- "not" is used to reverse the value. 
+
+"not": 
+- We can use "not" to reverse a Boolean value.
+ > not True is "False"
+ > not False is "True"
