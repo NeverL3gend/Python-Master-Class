@@ -99,3 +99,38 @@ if day == "Saturday" and temperature . 27 and not raining:
 - We can use "not" to reverse a Boolean value.
  > not True is "False"
  > not False is "True"
+
+
+For Loops and While Loops
+- Python provides several ways to repeat a block of code - things like:
+ > for loops
+ > while loops
+ List comprehensions and generator expressions
+ 
+- A "for" loop works by iterating over some set of values.
+ It assigns each of the values, one by one, to one or more variables
+ It then executes a block of code once for each value.
+ 
+- The set of values comes from a "sequence, or some other iterable object."
+ We've seen one sequence type - the string type. 
+ An "iterable" object is anything that can be iterated over. That means a "sequence" is also an iterable
+ In simple terms, you can use it with a "for" loop, then it's "iterable"\
+
+
+String.py notes:
+Stepping through a for loop
+
+In that case, we should examin each character in the number string, to check if it's a digit or not. As we saw in the previous video, a for lop can be used to do that.
+
+We're going to interate over numbers and append anything that isnt a digit to the separators string.
+
+
+Iterating over a range of values
+- In those languages, you provide a starting string value and an ending value, and increment a variable each time round the loop.
+
+- Python's different approach to "for" loops makes them incredibly powerful and also very flexible.
+
+we can get the same effect as C "for" loops, by iterating over a range of values.
+
+- Ranges work in the same way -> the last value is specified is not included
+- range produces a range of numbers - from the starting value, up to but not including the end value.
