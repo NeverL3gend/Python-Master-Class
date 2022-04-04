@@ -1,6 +1,3 @@
-from tkinter import Y
-
-
 parrot = "Norwegian Blue"
 
 letter = input("Enter a character: ")
