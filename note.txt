@@ -134,3 +134,36 @@ we can get the same effect as C "for" loops, by iterating over a range of values
 
 - Ranges work in the same way -> the last value is specified is not included
 - range produces a range of numbers - from the starting value, up to but not including the end value.
+
+While Loops
+- Python provides two main ways to loop round a block of code; for loops and while loops.
+- We've seen how a for loop can be used to iterate through an iterable. In our examples, we
+used the items in a sequence and numbers in a range.
+- Sometimes we need to keep looping as long as some condition is True, and stop when it 
+becomes False.
+- We do this using a while loop
+
+The Basic form is:
+
+while <condition>:
+    executes block of code
+
+- The condition can be anything that can evaluate to True or False.
+- As long as the condition is True, the code in the loop will be executed.
+- When the condition becomes False, the loop terminates.
+
+More on while loops 
+
+- One of the important feature of while loops is that they can be used when you can't
+determine, in advance, how many times you will need to loop.
+
+A for loop will repeat for each item in a pre-determined sequence, whereas with a while 
+loop you don;t need to know how many times the loop will execute.
+
+one particular application of this reading data from a file, or an internet stream.
+
+it's difficult (not impossible, but difficult) to know in advance how much data there is to read.
+
+A while loop can be used to keep readhing, until there's no more data left.
+
+We'll see this soon when we look at file I/O (input and output) in Python.

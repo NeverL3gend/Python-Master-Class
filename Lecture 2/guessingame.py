@@ -23,8 +23,6 @@ else:
 # else:
 #     print ("You got it the first time")
 
-
-
 # if guess < answer:
 #     print ("Please guess higher")
 #     # single equal sign is when you're assigning a variable
