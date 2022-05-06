@@ -167,3 +167,30 @@ it's difficult (not impossible, but difficult) to know in advance how much data 
 A while loop can be used to keep readhing, until there's no more data left.
 
 We'll see this soon when we look at file I/O (input and output) in Python.
+
+
+The random modile and import
+
+- Ther are number of problems with this game.
+- One problem is that only allows two guesses.
+- If we'd wanted to allow more than two guesses, we'd have to nest more and more if tests,
+every time the player guessed incorrectly.
+- The other problem is that 5 is always the correct number, which makes the game a bit boring 
+(not that it was terribly engaging to begin with)  
+
+Binary Search
+
+- When you have an ordered set of daya to search through, you can split the data in half each time.
+- Guessing a number is very much like searching for a value in an ordered set of data.
+- of course, we know that the value we're guessing does exist.
+- That simplifies things slightly, but the basic steps are the same.
+
+formula used for Binary search:
+low + (high - low) // 2
+
+- The binary search algorithm is the most efficient way of finding an item in an ordered list.
+- It forms the basis for the data structures that database programs, such as SQLite and Oracle,
+use for storing the database keys.
+
+- That allows very fast searching of the data.
+- In the next video, we'll write the code to guess a number, using a binary chop
