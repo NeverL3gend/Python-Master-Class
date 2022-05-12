@@ -197,3 +197,43 @@ use for storing the database keys.
 
 
 PEP -> Python Enhancement Proposal
+
+
+Tuples and Lists Section
+
+Sequences
+
+- A sequence is an ordered collection of tiems.
+- The word ordered there is important.
+- If a sequence wasn't ordered, you refere to individual items by their index position
+- When you iterate over a sequence - using a for loop, example - you'll always get the items in the same ordered
+
+
+Iterables
+- In Python, anything that you can iterate over is an iterable.
+- That means that if you can use it in a for loop, then it's iterable
+Accurate Definition of an Iterable:
+- The accurate definition of an iterable is that it's an object that contains either 
+an _iter_ method
+or an _getitem_ method
+- indexing must start from 0
+
+Immutable objects
+- When an object is described as immutable, that means it can't be changed.
+- The following immutable types are built into Python:
+ > int
+ > float
+ > boolean (True and False): a subclass of int
+ > str (string)
+ > tuple
+ > frozenset
+ > bytes
+
+ Mutable objects
+- A mutable object is one whose value can be changed
+- Python has the following mutable objects built in:
+    > list
+    > dic
+    > set
+    > Bytearray
+
