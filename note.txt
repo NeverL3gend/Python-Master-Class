@@ -237,3 +237,15 @@ Immutable objects
     > set
     > Bytearray
 
+Method and Functions
+- A method is the same as a function, except that it's bound to an object
+- When you call a function, you just type its name, and provide any arguments in parentheses
+- When we call a method, we tell it which object it's called on.
+
+Example of dot notation
+
+s.append(x)
+s -> The object that we're calling the method on. In case we append to a sequence called s 
+.append -> The method we want to call. Here, we call the append method
+(x) -> The arguments for the method. The value of x will be appended to the list
+
