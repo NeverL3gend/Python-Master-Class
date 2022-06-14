@@ -249,3 +249,5 @@ s -> The object that we're calling the method on. In case we append to a sequenc
 .append -> The method we want to call. Here, we call the append method
 (x) -> The arguments for the method. The value of x will be appended to the list
 
+Enumerate
+- Enumerate returns each item, with its index position
